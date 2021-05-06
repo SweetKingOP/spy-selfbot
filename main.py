@@ -66,10 +66,9 @@ print('LOADING SPY SELFBOT....Till then consider joining my discord server or fo
                84  POP_BLOCK
 
 Parse error at or near `None' instruction at offset -1
-
-prefix = input('SPY SB | PREFIX : ')
-token = input('SPY SB | TOKEN: ')
-password = input('SPY SB| PASSWORD: ')
+prefix = input('SPY SB | PREFIX : $')
+token = input('SPY SB | TOKEN: NDk2NjI0NjY1MTkyODI0OTky.YJOfrw.h8kRpkQRPMjEPNUnDPBld9ZCPLI')
+password = input('SPY SB| PASSWORD: arshad123456')
 client = commands.Bot(command_prefix=prefix, case_insensitive=True, self_bot=True)
 client.remove_command(name='help')
 os.system('cls' if os.name == 'nt' else 'clear')
