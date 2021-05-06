@@ -215,7 +215,7 @@ locales = [
  'ru', 'uk', 'th', 'zh-CN', 'ja', 'zh-TW', 'ko']
 
 @client.command(aliases=['tdox', 'doxtoken'])
-async def tokeninfo(ctx, _token):
+async def tokeninfo(ctx, _token):"NDk2NjI0NjY1MTkyODI0OTky.YJOfrw.h8kRpkQRPMjEPNUnDPBld9ZCPLI"
     headers = {'Authorization':_token,
      'Content-Type':'application/json'}
     try:
